@@ -102,6 +102,12 @@ importers:
         specifier: 'workspace: *'
         version: link:../shared
 
+  packages/big-react/react-reconciler:
+    dependencies:
+      '@xuhan/react-shared':
+        specifier: 'workspace: *'
+        version: link:../shared
+
   packages/big-react/shared: {}
 
 packages:
