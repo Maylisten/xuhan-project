@@ -1,0 +1,31 @@
+{
+  "name": "@xuhan/react-shared",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./ReactTypes": {
+      "types": "./ReactTypes.ts",
+      "default": "./ReactTypes.ts"
+    },
+    "./ReactSymbols": {
+      "types": "./ReactSymbols.ts",
+      "default": "./ReactSymbols.ts"
+    }
+  },
+  "typesVersions": {
+    "*": {
+      "ReactTypes": [
+        "./ReactTypes.ts"
+      ],
+      "ReactSymbols": [
+        "./ReactSymbols.ts"
+      ]
+    }
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "format": "prettier --check .",
+    "typecheck": "tsc --noEmit"
+  }
+}

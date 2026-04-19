@@ -30,6 +30,12 @@ export default [
       '@typescript-eslint/no-require-imports': 'off',
     },
   },
+  {
+    files: ['**/*.{ts,mts,cts}'],
+    rules: {
+      '@typescript-eslint/no-explicit-any': 'warn',
+    },
+  },
   eslintConfigPrettier,
   eslintPluginPrettierRecommended,
 ];
