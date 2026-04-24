@@ -1,12 +1,13 @@
 {
-  "extends": "../../../tsconfig.base.json",
+  "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "module": "ESNext",
     "moduleResolution": "Bundler",
     "noEmit": true,
     "paths": {
       "@xuhan/react-shared/ReactTypes": ["../shared/ReactTypes.ts"],
-      "@xuhan/react-shared/ReactSymbols": ["../shared/ReactSymbols.ts"]
+      "@xuhan/react-shared/ReactSymbols": ["../shared/ReactSymbols.ts"],
+      "hostConfig": ["./react-reconciler/src/hostConfig"]
     }
   },
   "include": ["src/**/*"]

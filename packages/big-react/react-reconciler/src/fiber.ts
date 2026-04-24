@@ -35,3 +35,7 @@ export class FiberNode {
     this.flags = NoFlags;
   }
 }
+
+export class FiberRootNode {
+  container: Container;
+}

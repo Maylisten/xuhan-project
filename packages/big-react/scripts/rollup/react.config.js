@@ -50,7 +50,7 @@ export default [
     ],
     plugins: getBaseRollupPlugins({
       typescript: {
-        tsconfig: path.resolve(pkgPath, 'tsconfig.json'),
+        tsconfig: path.resolve(pkgPath, '../tsconfig.json'),
       },
     }),
   },
